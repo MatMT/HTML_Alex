@@ -1,4 +1,4 @@
 # HTML_Alex
-Repositorio de HTML - Oscar Elías
-Este espacio es para todas las versiones prueba (BETA), o a revisar y confirmar
-El espacio Alpha almacenara archivos seguros, confirmados o bakcups
+
+Teacher, just open the "index.html" file. 
+It is important that you download all the compressed files.
