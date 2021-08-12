@@ -69,6 +69,18 @@ body {
   margin: 1%;
   padding: 0.2em 0.5em;
   border-radius: 25px;
+  border: 1px;
+  transition: transform 0.5s, color 0.5s, background 0.5s;
+}
+
+.nav_item:hover {
+background: #d33787;
+transform: scale(1.1);
+
+}
+
+.nav_item:hover ~ .nav_item a:hover {
+  color: white;
 }
 
 .logo,

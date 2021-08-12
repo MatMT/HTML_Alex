@@ -2,7 +2,12 @@ img {
 display:block;
 margin:auto;
 width: 30%; 
-height: auto
+height: auto;
+transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(1.2);
 }
 
 #video {
@@ -20,6 +25,8 @@ height: auto
     text-align: center;
     margin-bottom: 0.2em;
     text-shadow: 2px 3px rgba(119, 119, 119, 0.667);
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .text {
@@ -37,6 +44,7 @@ height: auto
     text-align:center;
     font-size: 1.2em;
     margin-top: 2%;
+    margin-bottom: 2%;
     }
     
     .list{
