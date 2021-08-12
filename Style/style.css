@@ -41,7 +41,7 @@ header {
 .text-title {
   color: #26efdd;
   text-shadow: 0px 6px #2e3646;
-  font-size: 4.2em;
+  font-size: 4em;
   padding-left: 1%;
 }
 
@@ -107,7 +107,7 @@ header {
 }
 
 .text h2 {
-  font-size: 3em;
+  font-size: 3.5em;
   text-align: center;
   margin-bottom: 0.2em;
 }
@@ -122,8 +122,14 @@ header {
 
 .container_width {
   border: solid 1px #000;
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 3.6em;
+  text-align: center;
+  color: #c60066;
 }
 
 /* Fin del ta bien*/
@@ -197,14 +203,15 @@ footer {
   display: flex;
   flex-direction: column;
   font-size: 1.2rem;
-  padding: 10em 5em;
+  padding: 5em 2em;
 }
 
 .name-list {
-  font-size: 2rem;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .descrip-list {
-  color: #fff;
+  color: #323232;
   font-size: 1.5rem;
 }
