@@ -14,7 +14,7 @@ header {
     z-index: 20;
 }
 #video {
-    margin-left: 30%;
+    margin-left: 33%;
   }
 
 
@@ -29,14 +29,16 @@ header {
     font-size: 3em;
     text-align: center;
     margin-bottom: 0.2em;
-    text-shadow: 2px 3px rgba(48, 47, 47, 0.667);
+    text-shadow: 4px 6px rgba(48, 47, 47, 0.667);
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
+
 .text {
     text-align: justify;
     width: 90% !important;
+    
 }
 
 
