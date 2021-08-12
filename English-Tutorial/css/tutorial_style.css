@@ -10,9 +10,14 @@ img:hover {
     transform: scale(1.2);
 }
 
+header {
+    z-index: 20;
+}
 #video {
     margin-left: 30%;
   }
+
+
 
 .background-video {
     width: 100%;
@@ -31,7 +36,11 @@ img:hover {
 
 .text {
     text-align: justify;
+    width: 90% !important;
 }
+
+
+
 .section-title:nth-child(1n+0) {
     color: crimson;
 }
@@ -50,4 +59,9 @@ img:hover {
     .list{
     text-align: left;
     display:inline-block;
+    }
+
+    .list:hover {
+        cursor: pointer;
+
     }
