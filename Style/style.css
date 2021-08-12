@@ -121,7 +121,8 @@ header {
 }
 
 .container_width {
-  border: solid 1px #000;
+  padding-top: 2%;
+  padding-bottom: 2%;
   width: 75%;
   margin: 0 auto;
 }
@@ -131,36 +132,6 @@ header {
   text-align: center;
   color: #c60066;
 }
-
-/* Fin del ta bien*/
-
-/*.
-}
-.nav_link::before {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 3px;
-  left: 0;
-  height: 3px;
-  width: 100%;
-  background-color: #000;
-  transform-origin: right top;
-  transform: scale(0, 1);
-  transition: color 0.1, transform 0.2s ease-out;
-}
-
-.nav_link:active::before {
-  background-color: #000;
-}
-
-.nav_link:hover::before,
-.nav_link:focus::before {
-  transform-origin: left top;
-  transform: scale(1, 1);
-}*/
-
-/*Ta bien*/
 
 footer {
   padding: 1em;
@@ -203,15 +174,41 @@ footer {
   display: flex;
   flex-direction: column;
   font-size: 1.2rem;
-  padding: 5em 2em;
+  padding: 4em 2em;
 }
 
 .name-list {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  color: #2e3646;
   text-align: center;
 }
 
 .descrip-list {
   color: #323232;
   font-size: 1.5rem;
+  text-align: justify;
+}
+
+.end {
+  font-size: 2.5rem;
+  color: #26efdd;
+  text-align: center;
+}
+
+.descrip-end {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.flex-subcontainer-end {
+  margin: 1% 1%;
+  display: flex;
+  font-size: 1.2rem;
+  padding: 2em 1em;
+}
+
+.PC-image {
+  width: 45%;
+  margin-left: 20px;
 }
