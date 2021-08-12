@@ -56,12 +56,12 @@ header {
     margin-bottom: 2%;
     }
     
-    .list{
+    .list_tools {
     text-align: left;
     display:inline-block;
     }
 
-    .list li {
+    .list_tools li {
         margin-top: 2%;
         cursor: pointer;
         background: 
@@ -71,6 +71,6 @@ header {
     transition: background 0.3s;
     }
 
-.list li:hover {
+.list_tools li:hover {
     --d: 100%;
 }
