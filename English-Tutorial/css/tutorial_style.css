@@ -29,7 +29,7 @@ header {
     font-size: 3em;
     text-align: center;
     margin-bottom: 0.2em;
-    text-shadow: 2px 3px rgba(119, 119, 119, 0.667);
+    text-shadow: 2px 3px rgba(48, 47, 47, 0.667);
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -61,7 +61,16 @@ header {
     display:inline-block;
     }
 
-    .list:hover {
+    .list li {
+        margin-top: 2%;
         cursor: pointer;
-
+        background: 
+        linear-gradient(currentColor 0 0) 
+        bottom /var(--d, 0) 3px 
+        no-repeat;
+    transition: background 0.3s;
     }
+
+.list li:hover {
+    --d: 100%;
+}
