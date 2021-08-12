@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+/*Ta bien*/
+
+body {
+  padding-top: 6rem;
+  background-color: #2e3646;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nav {
+  background-color: #323232;
+  height: 6rem;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-items: center;
+  transition: 0.2s ease-in-out;
+}
+
+.logo {
+  width: 50%;
+  padding-top: 0.5%;
+  text-align: center;
+  font-size: 2.6em;
+  height: auto;
+}
+
+#logo-text {
+  margin: 0 auto;
+  color: #fff;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 50%;
+}
+
+.list ul {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0%;
+}
+
+.nav_list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0vh 4vw;
+}
+
+.nav_item {
+  font-size: 1.3em;
+  background-color: #fff;
+  margin: 1%;
+  padding: 0.2em 0.5em;
+  border-radius: 25px;
+}
+
+.logo,
+.list {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+.berry,
+.blue_sky {
+  border: none;
+  margin: 4px;
+  height: 5px;
+}
+
+.berry {
+  background-color: #c60066;
+}
+
+.blue_sky {
+  background-color: #26efdd;
+}
+
+.background {
+  width: 100%;
+  height: auto;
+  background-image: url("../assets/images/back(2).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2.2em;
+  padding-bottom: 2.2em;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-shadow: 1px 2px 2px rgba(119, 119, 119, 0.667);
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  word-wrap: break-word;
+}
+
+.text h2 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+
+.text p {
+  margin: 0 auto;
+  width: 60%;
+  font-size: 1.5em;
+  word-break: break-all;
+  hyphens: auto;
+}
+
+.container_width {
+  border: solid 1px #000;
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* Fin del ta bien*/
+
+/*.
+}
+
+.nav_link {
+  color: inherit;
+  text-decoration: none;
+  margin-right: 50px;
+  position: relative;
+  padding: 16px 0;
+  margin: 0 12px;
+  letter-spacing: 1px;
+  line-height: 16px;
+  font-weight: 700;
+  transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
+  color: #111;
+}
+
+.nav_link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #000;
+  transform-origin: right top;
+  transform: scale(0, 1);
+  transition: color 0.1, transform 0.2s ease-out;
+}
+
+.nav_link:active::before {
+  background-color: #000;
+}
+
+.nav_link:hover::before,
+.nav_link:focus::before {
+  transform-origin: left top;
+  transform: scale(1, 1);
+}*/
+
+/*Ta bien*/
+
+footer {
+  padding: 1em;
+  background-color: #323232;
+  margin-top: auto;
+}
+
+.creators {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0%;
+}
+
+.creators li {
+  font-size: 1.3em;
+  color: #fff;
+  border-left: solid 2px #fffa;
+  border-right: solid 1px #fffa;
+  padding: 0 2em;
+  margin-bottom: 0.2em;
+}
+
+/* Ordenar cajas */
+
+.flex-container {
+  margin-left: 1.5em;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-subcontainer {
+  background-color: #fff;
+  margin: 5% 2%;
+  display: flex;
+  font-size: 1.2rem;
+  padding: 15em 8em;
+}
+
+.name-list {
+  font-size: 2rem;
+}
+
+.descrip-list {
+  color: #fff;
+  font-size: 1.5rem;
+}
