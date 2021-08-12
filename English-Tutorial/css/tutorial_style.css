@@ -10,9 +10,14 @@ img:hover {
     transform: scale(1.2);
 }
 
+header {
+    z-index: 20;
+}
 #video {
     margin-left: 30%;
   }
+
+
 
 .background-video {
     width: 100%;
@@ -24,14 +29,18 @@ img:hover {
     font-size: 3em;
     text-align: center;
     margin-bottom: 0.2em;
-    text-shadow: 2px 3px rgba(119, 119, 119, 0.667);
+    text-shadow: 2px 3px rgba(48, 47, 47, 0.667);
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
 .text {
     text-align: justify;
+    width: 90% !important;
 }
+
+
+
 .section-title:nth-child(1n+0) {
     color: crimson;
 }
@@ -47,7 +56,21 @@ img:hover {
     margin-bottom: 2%;
     }
     
-    .list{
+    .list_tools {
     text-align: left;
     display:inline-block;
     }
+
+    .list_tools li {
+        margin-top: 2%;
+        cursor: pointer;
+        background: 
+        linear-gradient(currentColor 0 0) 
+        bottom /var(--d, 0) 3px 
+        no-repeat;
+    transition: background 0.3s;
+    }
+
+.list_tools li:hover {
+    --d: 100%;
+}
