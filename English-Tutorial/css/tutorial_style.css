@@ -1,26 +1,45 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: sans-serif, Arial;
+img {
+display:block;
+margin:auto;
+width: 30%; 
+height: auto
 }
-body { background-image: url("https://image.freepik.com/vector-gratis/fondo-concepto-innovacion-tecnologica-diseno-metalico-abstracto-azul-negro_71775-908.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-   }
-   #navegator { background-image: url("https://wallpapercave.com/wp/wp3194552.png");
-   background-repeat: no-repeat;
-    background-size: cover;}
 
-   .layer {
-    border: 2px solid rgb(24, 23, 23);
-    background-color: rgba(92, 93, 99, 0.397);
-    width: 70%;}
+#video {
+    margin-left: 30%;
+  }
 
-    #lista {
-    display: flex;
-    flex-direction: column;
-    align-items: center;}
+.background-video {
+    width: 100%;
+    height: 26.8em;
+    background-image: url("../../assets/images/back(2).jpg");
+}
 
-   
+.section-title {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 0.2em;
+    text-shadow: 2px 3px rgba(119, 119, 119, 0.667);
+}
+
+.text {
+    text-align: justify;
+}
+.section-title:nth-child(1n+0) {
+    color: crimson;
+}
+
+.section-title:nth-child(2n+0) {
+    color: dodgerblue;
+}
+
+.block{
+    text-align:center;
+    font-size: 1.2em;
+    margin-top: 2%;
+    }
+    
+    .list{
+    text-align: left;
+    display:inline-block;
+    }
