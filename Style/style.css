@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins";
   box-sizing: border-box;
 }
 
@@ -16,70 +16,61 @@ body {
   flex-direction: column;
 }
 
-.nav {
+header {
   background-color: #323232;
-  height: 6rem;
+  height: 6em;
   top: 0;
   width: 100%;
   position: fixed;
   display: flex;
-  justify-items: center;
-  transition: 0.2s ease-in-out;
-}
-
-.logo {
-  width: 50%;
-  padding-top: 0.5%;
-  text-align: center;
-  font-size: 2.6em;
-  height: auto;
-}
-
-#logo-text {
-  margin: 0 auto;
-  color: #fff;
-}
-
-.list {
-  display: flex;
+  justify-content: space-between;
   align-items: center;
-  height: auto;
-  width: 50%;
-}
-
-.list ul {
-  display: flex;
-  justify-content: center;
-  align-content: flex-start;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0%;
-}
-
-.nav_list {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  padding: 0vh 4vw;
-}
-
-.nav_item {
-  font-size: 1.3em;
-  background-color: #fff;
-  margin: 1%;
-  padding: 0.2em 0.5em;
-  border-radius: 25px;
+  font-weight: 600;
 }
 
 .logo,
-.list {
-  display: inline-block;
+.title {
+  cursor: pointer;
 }
 
-a {
-  text-decoration: none;
-  color: #111;
+.logo {
+  width: 6em;
+  padding-right: 1%;
 }
+
+.text-title {
+  color: #26efdd;
+  text-shadow: 0px 6px #2e3646;
+  font-size: 4.2em;
+  padding-left: 1%;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+}
+
+.link_list {
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+
+.link_list a {
+  font-size: 1.5em;
+  transition: 0.3s;
+  color: #fff;
+  text-shadow: 0px 6px #2e3646;
+}
+
+.link_list a:hover {
+  color: #c60066;
+}
+
+.link {
+  text-decoration: none;
+}
+
 .berry,
 .blue_sky {
   border: none;
@@ -139,21 +130,6 @@ a {
 
 /*.
 }
-
-.nav_link {
-  color: inherit;
-  text-decoration: none;
-  margin-right: 50px;
-  position: relative;
-  padding: 16px 0;
-  margin: 0 12px;
-  letter-spacing: 1px;
-  line-height: 16px;
-  font-weight: 700;
-  transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
-  color: #111;
-}
-
 .nav_link::before {
   content: "";
   display: block;
@@ -217,10 +193,11 @@ footer {
 
 .flex-subcontainer {
   background-color: #fff;
-  margin: 5% 2%;
+  margin: 1% 1%;
   display: flex;
+  flex-direction: column;
   font-size: 1.2rem;
-  padding: 15em 8em;
+  padding: 10em 5em;
 }
 
 .name-list {
