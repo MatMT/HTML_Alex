@@ -7,15 +7,15 @@
 
 /*Ta bien*/
 
-p{
+p {
   color: #000;
-text-align: justify;
-font-size: 35px;
+  text-align: justify;
+  font-size: 35px;
 }
 
 body {
   padding-top: 6rem;
-  background-color: #2e3646;
+  background: linear-gradient(to top, #141e30, #243b55);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -110,7 +110,7 @@ header {
   flex-direction: column;
   text-shadow: 1px 2px 2px rgba(119, 119, 119, 0.667);
   width: 80%;
-  margin:  0 auto;
+  margin: 0 auto;
   color: #fff;
   word-wrap: break-word;
 }
@@ -223,8 +223,7 @@ footer {
   font-size: 1.5rem;
 }
 
-
-.what{
+.what {
   color: #26efdd;
   font-size: 50px;
 }
@@ -346,6 +345,6 @@ footer {
   margin-left: 20px;
 }
 
-.hol{
-  font-size: 45px
+.hol {
+  font-size: 45px;
 }
