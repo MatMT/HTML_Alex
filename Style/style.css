@@ -9,7 +9,7 @@
 
 body {
   padding-top: 6rem;
-  background-color: #2e3646;
+  background: linear-gradient(to top, #141e30, #243b55);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -210,4 +210,64 @@ footer {
 .PC-image {
   width: 45%;
   margin-left: 20px;
+}
+
+/*----------*/
+
+.flex-container2 {
+  margin-left: 1.5em;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 3em;
+}
+
+.flex-item,
+.flex-item2,
+.flex-item3,
+.flex-item4 {
+  margin-top: 20%;
+  margin-right: 10px;
+  display: flex;
+  font-size: 1.2rem;
+  padding: 12vh 12vh;
+}
+
+.name-list2 {
+  color: #26efdd;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.descrip-list2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.flex-item,
+.flex-item2,
+.flex-item3,
+.flex-item4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flex-item {
+  background-image: url(../assets/images/Team/Elias.jpg);
+}
+
+.flex-item2 {
+  background-image: url(../assets/images/Team/Willi.jpeg);
+}
+
+.flex-item3 {
+  background-image: url(../assets/images/Team/Samuel.jpeg);
+}
+
+.flex-item4 {
+  background-image: url(../assets/images/Team/Oscar.jpg);
 }
