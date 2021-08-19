@@ -7,15 +7,15 @@
 
 /*Ta bien*/
 
-p {
-  color: #000;
-  text-align: justify;
-  font-size: 35px;
+p{
+  color: #fff;
+text-align: justify;
+font-size: 35px;
 }
 
 body {
   padding-top: 6rem;
-  background: linear-gradient(to top, #141e30, #243b55);
+  background-color: #2e3646;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -96,7 +96,7 @@ header {
 .name {
   width: 100%;
   height: 350px;
-  background-image: url("../5-scaled.jpg");
+  background-image: url("../Images/5-scaled2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 3.2em;
@@ -110,7 +110,7 @@ header {
   flex-direction: column;
   text-shadow: 1px 2px 2px rgba(119, 119, 119, 0.667);
   width: 80%;
-  margin: 0 auto;
+  margin:  0 auto;
   color: #fff;
   word-wrap: break-word;
 }
@@ -205,12 +205,12 @@ footer {
 }
 
 .flex-subcontainer {
-  background-color: #fff;
+  color: #fff;
   margin: 1% 1%;
   display: flex;
   flex-direction: column;
   font-size: 1.2rem;
-  padding: 5em 2em;
+  padding: 3em 2em;
 }
 
 .name-list {
@@ -223,7 +223,8 @@ footer {
   font-size: 1.5rem;
 }
 
-.what {
+
+.what{
   color: #26efdd;
   font-size: 50px;
 }
@@ -239,9 +240,11 @@ footer {
 }
 
 .text h2 {
-  font-size: 3.5em;
+
   text-align: center;
   margin-bottom: 0.2em;
+  color: #26efdd;
+  font-size: 50px;
 }
 
 .text p {
@@ -301,7 +304,7 @@ footer {
 }
 
 .flex-subcontainer {
-  background-color: #fff;
+  
   margin: 1% 1%;
   display: flex;
   flex-direction: column;
@@ -337,7 +340,7 @@ footer {
   margin: 1% 1%;
   display: flex;
   font-size: 1.2rem;
-  padding: 2em 1em;
+  padding: 1em 1em;
 }
 
 .PC-image {
@@ -345,6 +348,94 @@ footer {
   margin-left: 20px;
 }
 
-.hol {
+.hol{
   font-size: 45px;
+  color: #c60066;
 }
+
+
+#video {
+  margin-left: 35%;
+}
+
+
+
+.background-video {
+  width: 100%;
+  height: 29.8em;
+  background-image: url("../Images/5-scaled2.jpg");
+}
+
+
+.all-content img {
+  display:block;
+  margin:auto;
+  width: 30%; 
+  height: auto;
+  transition: transform .2s;
+  }
+  
+  img:hover {
+      transform: scale(1.2);
+  }
+  
+  header {
+      z-index: 20;
+  }
+  #video {
+      margin-left: 33%;
+    }
+  
+  
+  
+
+  
+  .section-title {
+      font-size: 3em;
+      text-align: center;
+      margin-bottom: 0.2em;
+      text-shadow: 4px 6px rgba(48, 47, 47, 0.667);
+      margin-top: 2%;
+      margin-bottom: 2%;
+  }
+  
+  
+  .text {
+      text-align: justify;
+      width: 90% !important;
+      
+  }
+  
+  .section-title:nth-child(1n+0) {
+      color: crimson;
+  }
+  
+  .section-title:nth-child(2n+0) {
+      color: dodgerblue;
+  }
+  
+  .block{
+      text-align:center;
+      font-size: 1.2em;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      }
+      
+      .list_tools {
+      text-align: left;
+      display:inline-block;
+      }
+  
+      .list_tools li {
+          margin-top: 2%;
+          cursor: pointer;
+          background: 
+          linear-gradient(currentColor 0 0) 
+          bottom /var(--d, 0) 3px 
+          no-repeat;
+      transition: background 0.3s;
+      }
+  
+  .list_tools li:hover {
+      --d: 100%;
+  }
