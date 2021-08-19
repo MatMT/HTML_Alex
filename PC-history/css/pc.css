@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+/*Ta bien*/
+
+p{
+  color: #fff;
+text-align: justify;
+font-size: 35px;
+}
+
+body {
+  padding-top: 6rem;
+  background-color: #2e3646;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header {
+  background-color: #323232;
+  height: 6em;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+.logo,
+.title {
+  cursor: pointer;
+}
+
+.logo {
+  width: 6em;
+  padding-right: 1%;
+}
+
+.text-title {
+  color: #26efdd;
+  text-shadow: 0px 6px #2e3646;
+  font-size: 4em;
+  padding-left: 1%;
+  text-align: justify;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+}
+
+.link_list {
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+
+.link_list a {
+  font-size: 1.5em;
+  transition: 0.3s;
+  color: #fff;
+  text-shadow: 0px 6px #2e3646;
+}
+
+.link_list a:hover {
+  color: #c60066;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.berry,
+.blue_sky {
+  border: none;
+  margin: 4px;
+  height: 5px;
+}
+
+.berry {
+  background-color: #c60066;
+}
+
+.blue_sky {
+  background-color: #26efdd;
+}
+
+.name {
+  width: 100%;
+  height: 350px;
+  background-image: url("../Images/5-scaled2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3.2em;
+  padding-bottom: 3.2em;
+  color: #fff;
+  font-size: 45px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-shadow: 1px 2px 2px rgba(119, 119, 119, 0.667);
+  width: 80%;
+  margin:  0 auto;
+  color: #fff;
+  word-wrap: break-word;
+}
+
+.text h2 {
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+
+.text p {
+  margin: 0 auto;
+  width: 60%;
+  font-size: 1.5em;
+  word-break: break-all;
+  hyphens: auto;
+}
+
+.container_width {
+  border: solid 1px #000;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 3.6em;
+  text-align: center;
+  color: #c60066;
+}
+
+/* Fin del ta bien*/
+
+/*.
+}
+.nav_link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #000;
+  transform-origin: right top;
+  transform: scale(0, 1);
+  transition: color 0.1, transform 0.2s ease-out;
+}
+.nav_link:active::before {
+  background-color: #000;
+}
+.nav_link:hover::before,
+.nav_link:focus::before {
+  transform-origin: left top;
+  transform: scale(1, 1);
+}*/
+
+/*Ta bien*/
+
+footer {
+  padding: 1em;
+  background-color: #323232;
+  margin-top: auto;
+}
+
+.creators {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0%;
+}
+
+.creators li {
+  font-size: 1.3em;
+  color: #fff;
+  border-left: solid 2px #fffa;
+  border-right: solid 1px #fffa;
+  padding: 0 2em;
+  margin-bottom: 0.2em;
+}
+
+/* Ordenar cajas */
+
+.flex-container {
+  margin-left: 1.5em;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-subcontainer {
+  color: #fff;
+  margin: 1% 1%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  padding: 3em 2em;
+}
+
+.name-list {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.descrip-list {
+  color: #323232;
+  font-size: 1.5rem;
+}
+
+
+.what{
+  color: #26efdd;
+  font-size: 50px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-shadow: 1px 2px 2px rgba(119, 119, 119, 0.667);
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  word-wrap: break-word;
+}
+
+.text h2 {
+
+  text-align: center;
+  margin-bottom: 0.2em;
+  color: #26efdd;
+  font-size: 50px;
+}
+
+.text p {
+  margin: 0 auto;
+  width: 60%;
+  font-size: 1.5em;
+  word-break: break-all;
+  hyphens: auto;
+}
+
+.container_width {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 3.6em;
+  text-align: center;
+  color: #c60066;
+}
+
+footer {
+  padding: 1em;
+  background-color: #323232;
+  margin-top: auto;
+}
+
+.creators {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0%;
+}
+
+.creators li {
+  font-size: 1.3em;
+  color: #fff;
+  border-left: solid 2px #fffa;
+  border-right: solid 1px #fffa;
+  padding: 0 2em;
+  margin-bottom: 0.2em;
+}
+
+/* Ordenar cajas */
+
+.flex-container {
+  margin-left: 1.5em;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-subcontainer {
+  
+  margin: 1% 1%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  padding: 4em 2em;
+}
+
+.name-list {
+  font-size: 2.5rem;
+  color: #2e3646;
+  text-align: center;
+}
+
+.descrip-list {
+  color: #323232;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.end {
+  font-size: 2.5rem;
+  color: #26efdd;
+  text-align: center;
+}
+
+.descrip-end {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.flex-subcontainer-end {
+  margin: 1% 1%;
+  display: flex;
+  font-size: 1.2rem;
+  padding: 1em 1em;
+}
+
+.PC-image {
+  width: 45%;
+  margin-left: 20px;
+}
+
+.hol{
+  font-size: 45px;
+  color: #c60066;
+}
+
+
+#video {
+  margin-left: 35%;
+}
+
+
+
+.background-video {
+  width: 100%;
+  height: 29.8em;
+  background-image: url("../Images/5-scaled2.jpg");
+}
+
+
+.all-content img {
+  display:block;
+  margin:auto;
+  width: 30%; 
+  height: auto;
+  transition: transform .2s;
+  }
+  
+  img:hover {
+      transform: scale(1.2);
+  }
+  
+  header {
+      z-index: 20;
+  }
+  #video {
+      margin-left: 33%;
+    }
+  
+  
+  
+
+  
+  .section-title {
+      font-size: 3em;
+      text-align: center;
+      margin-bottom: 0.2em;
+      text-shadow: 4px 6px rgba(48, 47, 47, 0.667);
+      margin-top: 2%;
+      margin-bottom: 2%;
+  }
+  
+  
+  .text {
+      text-align: justify;
+      width: 90% !important;
+      
+  }
+  
+  .section-title:nth-child(1n+0) {
+      color: crimson;
+  }
+  
+  .section-title:nth-child(2n+0) {
+      color: dodgerblue;
+  }
+  
+  .block{
+      text-align:center;
+      font-size: 1.2em;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      }
+      
+      .list_tools {
+      text-align: left;
+      display:inline-block;
+      }
+  
+      .list_tools li {
+          margin-top: 2%;
+          cursor: pointer;
+          background: 
+          linear-gradient(currentColor 0 0) 
+          bottom /var(--d, 0) 3px 
+          no-repeat;
+      transition: background 0.3s;
+      }
+  
+  .list_tools li:hover {
+      --d: 100%;
+  }
