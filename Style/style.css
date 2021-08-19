@@ -133,6 +133,7 @@ header {
 }
 
 footer {
+  border-top: 5px solid #26efdd;
   padding: 1em;
   background-color: #323232;
   margin-top: auto;
@@ -222,7 +223,6 @@ footer {
   text-align: center;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: 3em;
 }
 
 .flex-item,
