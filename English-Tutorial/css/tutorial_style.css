@@ -16,8 +16,13 @@ header {
 #video {
     margin-left: 33%;
   }
-
-
+.creators li{
+    transition: text-shadow 0.5s ;
+}
+.creators li:hover {
+    
+    text-shadow: 3px 2px 6px rgba(130, 255, 255, 1);
+}
 
 .background-video {
     width: 100%;

@@ -157,6 +157,10 @@ footer {
   margin-bottom: 0.2em;
 }
 
+.descrip-end a{
+  color: #26efdd;
+  text-decoration: none;
+}
 /* Ordenar cajas */
 
 .flex-container {
