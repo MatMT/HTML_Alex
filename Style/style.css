@@ -156,11 +156,20 @@ footer {
   padding: 0 2em;
   margin-bottom: 0.2em;
 }
-
+/* a little bit of decoration */
 .descrip-end a{
   color: #26efdd;
   text-decoration: none;
 }
+
+.creators li{
+  transition: text-shadow 0.5s ;
+}
+.creators li:hover {
+  
+  text-shadow: 3px 2px 6px rgba(130, 255, 255, 1);
+}
+
 /* Ordenar cajas */
 
 .flex-container {
